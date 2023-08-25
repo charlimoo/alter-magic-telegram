@@ -1,0 +1,1505 @@
+{
+    "workflows": [
+        {
+            "name": "Cosplay - Full body",
+            "categories": [
+                {
+                    "name": "Fantasy",
+                    "styles": [
+                        {
+                        "name": "Elven Archer",
+                        "prompt": "Generate an elven archer outfit with intricate leaf patterns, a longbow, and flowing robes"
+                        },
+
+                        {
+                        "name": "Sorcerer Supreme",
+                        "prompt": "Create a sorcerer robe adorned with mystical symbols, a staff crackling with energy, and a cosmic-themed cloak"
+                        },
+
+                        {
+                        "name": "Steampunk Aviator",
+                        "prompt": "Design a steampunk aviator attire complete with goggles, leather jacket, utility belts, and mechanical wings"
+                        },
+
+                        {
+                        "name": "Enchanted Knight",
+                        "prompt": "Craft an enchanted knight armor with glowing runes, a majestic sword, and a helm decorated with majestic antlers"
+                        },
+
+                        {
+                        "name": "Mermaid Royalty",
+                        "prompt": "Devise an elegant mermaid queen ensemble featuring shimmering scales, a regal crown, and flowing aquatic-inspired fabrics"
+                        },
+
+                        {
+                        "name": "Clockwork Mechanic",
+                        "prompt": "Invent a clockwork mechanic jumpsuit covered in gears, wrenches, and mechanical arms, along with an oil-stained scarf"
+                        },
+
+                        {
+                        "name": "Ancient Egyptian Pharaoh",
+                        "prompt": "Construct the garb of an ancient Egyptian pharaoh, complete with a headdress, ornate jewelry, and richly detailed robes"
+                        },
+
+                        {
+                        "name": "Galactic Explorer",
+                        "prompt": "Imagine a spacefaring explorer outfit with a futuristic helmet, utility belt, jet boots, and cosmic map details"
+                        },
+
+                        {
+                        "name": "Witch of the Woods",
+                        "prompt": "Conjure an attire for a woodland witch, featuring earthy textures, a twisted staff, and a cloak made of leaves and branches"
+                        },
+
+                        {
+                        "name": "Pirate Captain",
+                        "prompt": "Design a pirate captain attire with a tricorn hat, eyepatch, peg leg, and a captain coat adorned with sea charts and compasses"
+                        }
+                    ]
+                },
+                {
+                    "name": "Historical",
+                    "styles": [
+                        {
+                            "name": "Victorian Aristocrat",
+                            "prompt": "Create a lavish Victorian-era noble ensemble complete with corset, top hat, and intricate lace details"
+                            },
+    
+                            {
+                            "name": "Feudal Samurai",
+                            "prompt": "Craft the armor of a feudal samurai warrior, featuring a detailed helmet, katana, and lacquered armor plates"
+                            },
+    
+                            {
+                            "name": "Renaissance Artist",
+                            "prompt": "Generate the outfit of a Renaissance artist including a beret, paint-smeared smock, and a palette of vibrant colors"
+                            },
+    
+                            {
+                            "name": "Ancient Roman Senator",
+                            "prompt": "Design the attire of an ancient Roman senator with a toga, laurel wreath, and gold-embroidered stola"
+                            },
+    
+                            {
+                            "name": "Medieval Peasant",
+                            "prompt": "Develop the clothing of a humble medieval peasant with patched clothing, a straw hat, and a wicker basket"
+                            },
+    
+                            {
+                            "name": "Egyptian Pharaoh Consort",
+                            "prompt": "Reimagine the regal attire of an Egyptian pharaoh consort, featuring intricate jewelry, draped linen, and a cobra-adorned crown"
+                            },
+    
+                            {
+                            "name": "Wild West Outlaw",
+                            "prompt": "Craft a Wild West outlaw outfit with a rugged leather vest, cowboy hat, bandana, and a revolver holster"
+                            },
+    
+                            {
+                            "name": "Geisha Elegance",
+                            "prompt": "Create the elegant attire of a geisha with a colorful kimono, ornate obi, and traditional wooden geta sandals"
+                            },
+    
+                            {
+                            "name": "Victorian Detective",
+                            "prompt": "Invent a Victorian detective ensemble, complete with a deerstalker hat, trench coat, magnifying glass, and pocket watch"
+                            },
+    
+                            {
+                            "name": "Medieval Jester",
+                            "prompt": "Imagine the playful costume of a medieval jester with mismatched patterns, bells, a jester hat, and painted face"
+                            }
+                    ]
+                },
+                {
+                    "name": "Sci-Fi",
+                    "styles": [
+                        {
+                            "name": "Cyberpunk Hacker",
+                            "prompt": "Design a cyberpunk hacker outfit with neon accents, augmented reality glasses, a data glove, and circuit pattern details"
+                            },
+    
+                            {
+                            "name": "Alien Diplomat",
+                            "prompt": "Generate the attire of an intergalactic alien diplomat, featuring iridescent scales, multiple eyes, and unique extraterrestrial accessories"
+                            },
+    
+                            {
+                            "name": "Space Marine",
+                            "prompt": "Craft the futuristic armor of a space marine, complete with powered exoskeleton, energy weapons, and HUD visor"
+                            },
+    
+                            {
+                            "name": "Post-Apocalyptic Survivor",
+                            "prompt": "Create the rugged outfit of a post-apocalyptic survivor, featuring tattered clothing, scavenged armor pieces, and a gas mask"
+                            },
+    
+                            {
+                            "name": "Android Entertainer",
+                            "prompt": "Devise the costume of an android entertainer with LED-lit clothing, articulated limbs, and holographic performance accessories"
+                            },
+    
+                            {
+                            "name": "Galactic Priestess",
+                            "prompt": "Imagine the robes of a mystical galactic priestess, adorned with constellations, crystal embellishments, and cosmic symbols"
+                            },
+    
+                            {
+                            "name": "Futuristic Bounty Hunter",
+                            "prompt": "Invent a futuristic bounty hunter attire with modular armor, retractable visor, energy blasters, and a utility belt"
+                            },
+    
+                            {
+                            "name": "Virtual Reality Gamer",
+                            "prompt": "Design the outfit of a virtual reality gamer, featuring a haptic suit, VR headset, gloves, and a dynamic digital pattern"
+                            },
+    
+                            {
+                            "name": "Bio-Mechanical Cyborg",
+                            "prompt": "Create the fusion of biology and machinery with a bio-mechanical cyborg costume, including exposed circuitry, synthetic skin, and cybernetic limbs"
+                            },
+    
+                            {
+                            "name": "Space Nomad",
+                            "prompt": "Construct the clothing of a spacefaring nomad, featuring layered fabrics, solar panels, portable equipment, and a telescopic staff"
+                            }
+                    ]
+                },
+                {
+                    "name": "Legend",
+                    "styles": [
+                        {
+                            "name": "Norse Valkyrie",
+                            "prompt": "Design the armor of a Norse valkyrie warrior, complete with winged helmet, fur-lined cape, and a magical sword"
+                            },
+    
+                            {
+                            "name": "Celtic Druid",
+                            "prompt": "Craft the attire of a Celtic druid, featuring intricately patterned robes, a wooden staff, and nature-inspired accessories"
+                            },
+    
+                            {
+                            "name": "Greek Goddess",
+                            "prompt": "Create the majestic clothing of a Greek goddess, with flowing drapery, a laurel wreath crown, and celestial jewelry"
+                            },
+    
+                            {
+                            "name": "Native American Shaman",
+                            "prompt": "Devise the clothing of a Native American shaman, featuring tribal patterns, feathered headdress, and sacred amulets"
+                            },
+    
+                            {
+                            "name": "Japanese Kitsune Spirit",
+                            "prompt": "Imagine the ethereal outfit of a Japanese kitsune spirit, complete with fox mask, colorful kimono, and flowing tails"
+                            },
+    
+                            {
+                            "name": "Arabian Nights Enchantress",
+                            "prompt": "Invent the enchanting attire of an Arabian nights enchantress, featuring silk veils, ornate jewelry, and mystical symbols"
+                            },
+    
+                            {
+                            "name": "Aztec Jaguar Warrior",
+                            "prompt": "Craft the fearsome armor of an Aztec jaguar warrior, with jaguar motifs, feathered headdress, and obsidian weaponry"
+                            },
+    
+                            {
+                            "name": "Chinese Dragon Emperor",
+                            "prompt": "Design the opulent robes of a Chinese dragon emperor, adorned with dragon motifs, silk brocade, and imperial regalia"
+                            },
+    
+                            {
+                            "name": "African Tribal Chief",
+                            "prompt": "Create the regal clothing of an African tribal chief, featuring colorful textiles, beaded accessories, and symbolic patterns"
+                            },
+    
+                            {
+                            "name": "Sirens of the Sea",
+                            "prompt": "Imagine the alluring attire of sea sirens, with seaweed-adorned dresses, shells, pearls, and oceanic jewelry"
+                            }
+                    ]
+                },
+                {
+                    "name": "Pop",
+                    "styles": [
+                        {
+                            "name": "Superhero Vigilante",
+                            "prompt": "Design the costume of a masked superhero vigilante, featuring a symbol on the chest, utility belt, and a billowing cape"
+                            },
+    
+                            {
+                            "name": "Iconic Space Explorer",
+                            "prompt": "Craft the outfit of an iconic space explorer, with a jumpsuit, mission patch, futuristic boots, and a space helmet"
+                            },
+    
+                            {
+                            "name": "Animated Fantasy Hero",
+                            "prompt": "Create the attire of an animated fantasy hero, with exaggerated proportions, bold colors, and stylized armor"
+                            },
+    
+                            {
+                            "name": "Classic Video Game Character",
+                            "prompt": "Devise the costume of a classic video game character, with pixelated textures, blocky shapes, and signature accessories"
+                            },
+    
+                            {
+                            "name": "Legendary Wizard",
+                            "prompt": "Invent the robes of a legendary wizard, complete with a pointy hat, mystical staff, and a voluminous beard"
+                            },
+    
+                            {
+                            "name": "Sci-Fi Time Traveler",
+                            "prompt": "Design the clothing of a sci-fi time traveler, featuring a futuristic jacket, high-tech gadgetry, and a time-travel device"
+                            },
+    
+                            {
+                            "name": "Fairy Tale Protagonist",
+                            "prompt": "Imagine the attire of a fairy tale protagonist, with humble clothing, a satchel, and a touch of magical charm"
+                            },
+    
+                            {
+                            "name": "1980s Pop Star",
+                            "prompt": "Craft the outfit of a vibrant 1980s pop star, featuring neon colors, sequins, leg warmers, and a big hairdo"
+                            },
+    
+                            {
+                            "name": "Action Movie Heroine",
+                            "prompt": "Create the rugged outfit of an action movie heroine, with combat boots, tactical gear, and a confident stance"
+                            },
+    
+                            {
+                            "name": "Zombie Apocalypse Survivor",
+                            "prompt": "Design the clothing of a zombie apocalypse survivor, featuring torn clothing, improvised armor, and zombie-slaying accessories"
+                            }
+                    ]
+                },
+                {
+                    "name": "Movie Star",
+                    "styles": [
+                        {
+                            "name": "Indiana Jones Adventure",
+                            "prompt": "Capture the essence of Indiana Jones with his trademark fedora, leather jacket, whip, and a weathered satchel"
+                            },
+    
+                            {
+                            "name": "Femme Fatale - Audrey Hepburn",
+                            "prompt": "Channel Audrey Hepburn elegance with a chic little black dress, pearl accessories, oversized sunglasses, and a tiara from Breakfast at Tiffany."
+                            },
+                            {
+                            "name": "Maverick Aviator - Tom Cruise",
+                            "prompt": "Emulate Tom Cruise Top Gun character with aviator sunglasses, bomber jacket, flight suit, and a cocky grin"
+                            },
+    
+                            {
+                            "name": "Classic Hollywood Glam - Marilyn Monroe",
+                            "prompt": "Recreate Marilyn Monroe iconic white dress moment with a flowing white gown, red lipstick, platinum curls, and a beauty mark"
+                            },
+    
+                            {
+                            "name": "Time-Traveling Marty - Michael J. Fox",
+                            "prompt": "Pay homage to Marty McFly with a retro 80s outfit, red puffer vest, high-top sneakers, and a futuristic skateboard"
+                            },
+    
+                            {
+                            "name": "Intergalactic Princess - Carrie Fisher",
+                            "prompt": "Honor Carrie Fisher legacy with a Princess Leia costume, complete with the iconic white robe, cinnamon bun hairstyle, and blaster"
+                            },
+    
+                            {
+                            "name": "Swashbuckling Pirate - Johnny Depp",
+                            "prompt": "Transform into Captain Jack Sparrow with layered pirate attire, dreadlocks, bandana, beaded accessories, and a hint of eccentricity"
+                            },
+    
+                            {
+                            "name": "Action Hero - Bruce Willis",
+                            "prompt": "Embody Bruce Willis John McClane from Die Hard with a gritty NYPD tank top, jeans, holster, and a determined expression"
+                            },
+    
+                            {
+                            "name": "Quirky Inventor - Doc Brown",
+                            "prompt": "Create the look of Doc Brown from Back to the Future with a lab coat, wild white hair, safety goggles, and a futuristic gadget"
+                            },
+    
+                            {
+                            "name": "Wizarding Magic - Daniel Radcliffe",
+                            "prompt": "Transform into Harry Potter with round glasses, Hogwarts robes, a wand, and a lightning bolt scar on your forehead"
+                            }
+                    ]
+                },
+                {
+                    "name": "Marvel",
+                    "styles": [
+                        {
+                            "name": "Friendly Neighborhood Spider-Man",
+                            "prompt": "Transform into Spider-Man with the classic red and blue suit, web shooters, and the distinctive spider emblem on the chest"
+                            },
+    
+                            {
+                            "name": "Invincible Iron Man",
+                            "prompt": "Emulate Iron Man with the sleek red and gold armor, arc reactor chest piece, and repulsor gauntlets"
+                            },
+    
+                            {
+                            "name": "Mighty Thor",
+                            "prompt": "Channel Thor power with the Asgardian armor, enchanted Mjolnir, and a red cape flowing in the wind"
+                            },
+    
+                            {
+                            "name": "Star-Spangled Avenger",
+                            "prompt": "Become Captain America with the star-spangled shield, blue uniform, red boots, and the iconic A on the helmet"
+                            },
+    
+                            {
+                            "name": "Fierce Black Widow",
+                            "prompt": "Embody Black Widow with the tactical black suit, wrist gauntlets, and a belt of spy gadgets"
+                            },
+    
+                            {
+                            "name": "Gamma-Powered Hulk",
+                            "prompt": "Transform into Hulk with shredded purple pants, green body paint, and an intimidating, muscle-bound physique"
+                            },
+    
+                            {
+                            "name": "Merc with a Mouth - Deadpool",
+                            "prompt": "Capture Deadpool irreverent style with a red and black suit, mask, katana, and humorous accessories"
+                            },
+    
+                            {
+                            "name": "Wakandan Warrior - Black Panther",
+                            "prompt": "Emulate Black Panther regal costume with a vibranium suit, clawed gloves, and a necklace with a panther pendant"
+                            },
+    
+                            {
+                            "name": "Scarlet Witch Magic",
+                            "prompt": "Channel Scarlet Witch with her red and black outfit, red cloak, and mystical energy effects"
+                            },
+    
+                            {
+                            "name": "Guardian of the Galaxy - Star-Lord",
+                            "prompt": "Transform into Star-Lord with his red leather jacket, Walkman, blasters, and a cassette tape accessory"
+                            }
+                    ]
+                },
+                {
+                    "name": "Disney",
+                    "styles": [
+                        {
+                        "name": "Enchanted Beauty - Belle",
+                        "prompt": "Transform into Belle with her golden ballgown, blue ribbon, and a single rose accessory"
+                        },
+    
+                        {
+                        "name": "Under-the-Sea Mermaid - Ariel",
+                        "prompt": "Emulate Ariel mermaid form with a flowing red wig, purple seashell bikini top, and a shimmering tail"
+                        },
+    
+                        {
+                        "name": "Glass Slipper Princess - Cinderella",
+                        "prompt": "Channel Cinderella with her blue ballgown, glass slipper, and a sparkling tiara"
+                        },
+    
+                        {
+                        "name": "Fierce Warrior - Mulan",
+                        "prompt": "Become Mulan with her armor from the Matchmaker scene, along with a sword and her father helmet"
+                        },
+    
+                        {
+                        "name": "A Whole New World - Jasmine",
+                        "prompt": "Embody Jasmine with her turquoise harem pants, crop top, and a magical lamp accessory"
+                        },
+    
+                        {
+                        "name": "Forest Royalty - Pocahontas",
+                        "prompt": "Capture Pocahontas spirit with her tan outfit, turquoise necklace, and wind-blown hair"
+                        },
+    
+                        {
+                        "name": "Scottish Adventurer - Merida",
+                        "prompt": "Transform into Merida with her fiery red hair, green dress, and a bow and arrow"
+                        },
+    
+                        {
+                        "name": "Rapunzel Tower - Rapunzel",
+                        "prompt": "Emulate Rapunzel with her long blonde wig, purple dress, and a frying pan prop"
+                        },
+    
+                        {
+                        "name": "Winter Enchantment - Elsa",
+                        "prompt": "Channel Elsa magic with her ice-blue gown, snowflake accessories, and a dramatic cape"
+                        },
+    
+                        {
+                        "name": "Frog Princess - Tiana",
+                        "prompt": "Become Tiana with her signature lily pad green gown, tiara, and a frog companion"
+                        }
+                    ]
+                },
+                {
+                    "name": "Real World",
+                    "styles": [
+                        {
+                            "name": "Roaring Twenties Flapper",
+                            "prompt": "Embrace the glamour of the 1920s with a fringed dress, feathered headband, long pearl necklace, and a cigarette holder"
+                            },
+    
+                            {
+                            "name": "Swinging Sixties Mod",
+                            "prompt": "Channel the 1960s mod style with a bold mini dress, knee-high boots, statement jewelry, and a sleek bob hairstyle"
+                            },
+    
+                            {
+                            "name": "Victorian Steampunk Explorer",
+                            "prompt": "Emulate a Victorian-inspired steampunk explorer with a corseted top, high-waisted skirt, utility belt, and mechanical accessories"
+                            },
+    
+                            {
+                            "name": "Bohemian Flower Child",
+                            "prompt": "Capture the free-spirited 1970s vibe with a flowy maxi dress, flower crown, round sunglasses, and layered jewelry"
+                            },
+    
+                            {
+                            "name": "Renaissance Noble",
+                            "prompt": "Transform into a Renaissance noble with a richly embroidered gown, ruffled collar, velvet cloak, and elaborate headpiece"
+                            },
+    
+                            {
+                            "name": "Bollywood Glamour",
+                            "prompt": "Embrace the opulence of Bollywood with a vibrant sari, intricate jewelry, henna tattoos, and a bindi"
+                            },
+    
+                            {
+                            "name": "Japanese Street Fashionista",
+                            "prompt": "Channel Japanese street fashion with a mix of styles like Lolita, Harajuku, or Gyaru, combining layers, accessories, and unique prints"
+                            },
+    
+                            {
+                            "name": "Regency Dandy",
+                            "prompt": "Emulate a Regency-era dandy with tailored trousers, waistcoat, cravat, and a top hat"
+                            },
+    
+                            {
+                            "name": "Nomadic Nomad",
+                            "prompt": "Transform into a nomadic wanderer with layered earth-toned clothing, woven fabrics, and an assortment of rustic accessories"
+                            },
+    
+                            {
+                            "name": "Modern Business Mogul",
+                            "prompt": "Capture the essence of a modern business mogul with a sharp tailored suit, power tie, designer accessories, and a confident demeanor"
+                            }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cosplay - Outfit",
+            "categories": [
+                {
+                    "name": "Fantasy",
+                    "styles": [
+                        {
+                        "name": "Elven Archer",
+                        "prompt": "Generate an elven archer outfit with intricate leaf patterns, a longbow, and flowing robes"
+                        },
+
+                        {
+                        "name": "Sorcerer Supreme",
+                        "prompt": "Create a sorcerer robe adorned with mystical symbols, a staff crackling with energy, and a cosmic-themed cloak"
+                        },
+
+                        {
+                        "name": "Steampunk Aviator",
+                        "prompt": "Design a steampunk aviator attire complete with goggles, leather jacket, utility belts, and mechanical wings"
+                        },
+
+                        {
+                        "name": "Enchanted Knight",
+                        "prompt": "Craft an enchanted knight armor with glowing runes, a majestic sword, and a helm decorated with majestic antlers"
+                        },
+
+                        {
+                        "name": "Mermaid Royalty",
+                        "prompt": "Devise an elegant mermaid queen ensemble featuring shimmering scales, a regal crown, and flowing aquatic-inspired fabrics"
+                        },
+
+                        {
+                        "name": "Clockwork Mechanic",
+                        "prompt": "Invent a clockwork mechanic jumpsuit covered in gears, wrenches, and mechanical arms, along with an oil-stained scarf"
+                        },
+
+                        {
+                        "name": "Ancient Egyptian Pharaoh",
+                        "prompt": "Construct the garb of an ancient Egyptian pharaoh, complete with a headdress, ornate jewelry, and richly detailed robes"
+                        },
+
+                        {
+                        "name": "Galactic Explorer",
+                        "prompt": "Imagine a spacefaring explorer outfit with a futuristic helmet, utility belt, jet boots, and cosmic map details"
+                        },
+
+                        {
+                        "name": "Witch of the Woods",
+                        "prompt": "Conjure an attire for a woodland witch, featuring earthy textures, a twisted staff, and a cloak made of leaves and branches"
+                        },
+
+                        {
+                        "name": "Pirate Captain",
+                        "prompt": "Design a pirate captain attire with a tricorn hat, eyepatch, peg leg, and a captain coat adorned with sea charts and compasses"
+                        }
+                    ]
+                },
+                {
+                    "name": "Historical",
+                    "styles": [
+                        {
+                            "name": "Victorian Aristocrat",
+                            "prompt": "Create a lavish Victorian-era noble ensemble complete with corset, top hat, and intricate lace details"
+                            },
+    
+                            {
+                            "name": "Feudal Samurai",
+                            "prompt": "Craft the armor of a feudal samurai warrior, featuring a detailed helmet, katana, and lacquered armor plates"
+                            },
+    
+                            {
+                            "name": "Renaissance Artist",
+                            "prompt": "Generate the outfit of a Renaissance artist including a beret, paint-smeared smock, and a palette of vibrant colors"
+                            },
+    
+                            {
+                            "name": "Ancient Roman Senator",
+                            "prompt": "Design the attire of an ancient Roman senator with a toga, laurel wreath, and gold-embroidered stola"
+                            },
+    
+                            {
+                            "name": "Medieval Peasant",
+                            "prompt": "Develop the clothing of a humble medieval peasant with patched clothing, a straw hat, and a wicker basket"
+                            },
+    
+                            {
+                            "name": "Egyptian Pharaoh Consort",
+                            "prompt": "Reimagine the regal attire of an Egyptian pharaoh consort, featuring intricate jewelry, draped linen, and a cobra-adorned crown"
+                            },
+    
+                            {
+                            "name": "Wild West Outlaw",
+                            "prompt": "Craft a Wild West outlaw outfit with a rugged leather vest, cowboy hat, bandana, and a revolver holster"
+                            },
+    
+                            {
+                            "name": "Geisha Elegance",
+                            "prompt": "Create the elegant attire of a geisha with a colorful kimono, ornate obi, and traditional wooden geta sandals"
+                            },
+    
+                            {
+                            "name": "Victorian Detective",
+                            "prompt": "Invent a Victorian detective ensemble, complete with a deerstalker hat, trench coat, magnifying glass, and pocket watch"
+                            },
+    
+                            {
+                            "name": "Medieval Jester",
+                            "prompt": "Imagine the playful costume of a medieval jester with mismatched patterns, bells, a jester hat, and painted face"
+                            }
+                    ]
+                },
+                {
+                    "name": "Sci-Fi",
+                    "styles": [
+                        {
+                            "name": "Cyberpunk Hacker",
+                            "prompt": "Design a cyberpunk hacker outfit with neon accents, augmented reality glasses, a data glove, and circuit pattern details"
+                            },
+    
+                            {
+                            "name": "Alien Diplomat",
+                            "prompt": "Generate the attire of an intergalactic alien diplomat, featuring iridescent scales, multiple eyes, and unique extraterrestrial accessories"
+                            },
+    
+                            {
+                            "name": "Space Marine",
+                            "prompt": "Craft the futuristic armor of a space marine, complete with powered exoskeleton, energy weapons, and HUD visor"
+                            },
+    
+                            {
+                            "name": "Post-Apocalyptic Survivor",
+                            "prompt": "Create the rugged outfit of a post-apocalyptic survivor, featuring tattered clothing, scavenged armor pieces, and a gas mask"
+                            },
+    
+                            {
+                            "name": "Android Entertainer",
+                            "prompt": "Devise the costume of an android entertainer with LED-lit clothing, articulated limbs, and holographic performance accessories"
+                            },
+    
+                            {
+                            "name": "Galactic Priestess",
+                            "prompt": "Imagine the robes of a mystical galactic priestess, adorned with constellations, crystal embellishments, and cosmic symbols"
+                            },
+    
+                            {
+                            "name": "Futuristic Bounty Hunter",
+                            "prompt": "Invent a futuristic bounty hunter attire with modular armor, retractable visor, energy blasters, and a utility belt"
+                            },
+    
+                            {
+                            "name": "Virtual Reality Gamer",
+                            "prompt": "Design the outfit of a virtual reality gamer, featuring a haptic suit, VR headset, gloves, and a dynamic digital pattern"
+                            },
+    
+                            {
+                            "name": "Bio-Mechanical Cyborg",
+                            "prompt": "Create the fusion of biology and machinery with a bio-mechanical cyborg costume, including exposed circuitry, synthetic skin, and cybernetic limbs"
+                            },
+    
+                            {
+                            "name": "Space Nomad",
+                            "prompt": "Construct the clothing of a spacefaring nomad, featuring layered fabrics, solar panels, portable equipment, and a telescopic staff"
+                            }
+                    ]
+                },
+                {
+                    "name": "Legend",
+                    "styles": [
+                        {
+                            "name": "Norse Valkyrie",
+                            "prompt": "Design the armor of a Norse valkyrie warrior, complete with winged helmet, fur-lined cape, and a magical sword"
+                            },
+    
+                            {
+                            "name": "Celtic Druid",
+                            "prompt": "Craft the attire of a Celtic druid, featuring intricately patterned robes, a wooden staff, and nature-inspired accessories"
+                            },
+    
+                            {
+                            "name": "Greek Goddess",
+                            "prompt": "Create the majestic clothing of a Greek goddess, with flowing drapery, a laurel wreath crown, and celestial jewelry"
+                            },
+    
+                            {
+                            "name": "Native American Shaman",
+                            "prompt": "Devise the clothing of a Native American shaman, featuring tribal patterns, feathered headdress, and sacred amulets"
+                            },
+    
+                            {
+                            "name": "Japanese Kitsune Spirit",
+                            "prompt": "Imagine the ethereal outfit of a Japanese kitsune spirit, complete with fox mask, colorful kimono, and flowing tails"
+                            },
+    
+                            {
+                            "name": "Arabian Nights Enchantress",
+                            "prompt": "Invent the enchanting attire of an Arabian nights enchantress, featuring silk veils, ornate jewelry, and mystical symbols"
+                            },
+    
+                            {
+                            "name": "Aztec Jaguar Warrior",
+                            "prompt": "Craft the fearsome armor of an Aztec jaguar warrior, with jaguar motifs, feathered headdress, and obsidian weaponry"
+                            },
+    
+                            {
+                            "name": "Chinese Dragon Emperor",
+                            "prompt": "Design the opulent robes of a Chinese dragon emperor, adorned with dragon motifs, silk brocade, and imperial regalia"
+                            },
+    
+                            {
+                            "name": "African Tribal Chief",
+                            "prompt": "Create the regal clothing of an African tribal chief, featuring colorful textiles, beaded accessories, and symbolic patterns"
+                            },
+    
+                            {
+                            "name": "Sirens of the Sea",
+                            "prompt": "Imagine the alluring attire of sea sirens, with seaweed-adorned dresses, shells, pearls, and oceanic jewelry"
+                            }
+                    ]
+                },
+                {
+                    "name": "Pop",
+                    "styles": [
+                        {
+                            "name": "Superhero Vigilante",
+                            "prompt": "Design the costume of a masked superhero vigilante, featuring a symbol on the chest, utility belt, and a billowing cape"
+                            },
+    
+                            {
+                            "name": "Iconic Space Explorer",
+                            "prompt": "Craft the outfit of an iconic space explorer, with a jumpsuit, mission patch, futuristic boots, and a space helmet"
+                            },
+    
+                            {
+                            "name": "Animated Fantasy Hero",
+                            "prompt": "Create the attire of an animated fantasy hero, with exaggerated proportions, bold colors, and stylized armor"
+                            },
+    
+                            {
+                            "name": "Classic Video Game Character",
+                            "prompt": "Devise the costume of a classic video game character, with pixelated textures, blocky shapes, and signature accessories"
+                            },
+    
+                            {
+                            "name": "Legendary Wizard",
+                            "prompt": "Invent the robes of a legendary wizard, complete with a pointy hat, mystical staff, and a voluminous beard"
+                            },
+    
+                            {
+                            "name": "Sci-Fi Time Traveler",
+                            "prompt": "Design the clothing of a sci-fi time traveler, featuring a futuristic jacket, high-tech gadgetry, and a time-travel device"
+                            },
+    
+                            {
+                            "name": "Fairy Tale Protagonist",
+                            "prompt": "Imagine the attire of a fairy tale protagonist, with humble clothing, a satchel, and a touch of magical charm"
+                            },
+    
+                            {
+                            "name": "1980s Pop Star",
+                            "prompt": "Craft the outfit of a vibrant 1980s pop star, featuring neon colors, sequins, leg warmers, and a big hairdo"
+                            },
+    
+                            {
+                            "name": "Action Movie Heroine",
+                            "prompt": "Create the rugged outfit of an action movie heroine, with combat boots, tactical gear, and a confident stance"
+                            },
+    
+                            {
+                            "name": "Zombie Apocalypse Survivor",
+                            "prompt": "Design the clothing of a zombie apocalypse survivor, featuring torn clothing, improvised armor, and zombie-slaying accessories"
+                            }
+                    ]
+                },
+                {
+                    "name": "Movie Star",
+                    "styles": [
+                        {
+                            "name": "Indiana Jones Adventure",
+                            "prompt": "Capture the essence of Indiana Jones with his trademark fedora, leather jacket, whip, and a weathered satchel"
+                            },
+    
+                            {
+                            "name": "Femme Fatale - Audrey Hepburn",
+                            "prompt": "Channel Audrey Hepburn elegance with a chic little black dress, pearl accessories, oversized sunglasses, and a tiara from Breakfast at Tiffany."
+                            },
+                            {
+                            "name": "Maverick Aviator - Tom Cruise",
+                            "prompt": "Emulate Tom Cruise Top Gun character with aviator sunglasses, bomber jacket, flight suit, and a cocky grin"
+                            },
+    
+                            {
+                            "name": "Classic Hollywood Glam - Marilyn Monroe",
+                            "prompt": "Recreate Marilyn Monroe iconic white dress moment with a flowing white gown, red lipstick, platinum curls, and a beauty mark"
+                            },
+    
+                            {
+                            "name": "Time-Traveling Marty - Michael J. Fox",
+                            "prompt": "Pay homage to Marty McFly with a retro 80s outfit, red puffer vest, high-top sneakers, and a futuristic skateboard"
+                            },
+    
+                            {
+                            "name": "Intergalactic Princess - Carrie Fisher",
+                            "prompt": "Honor Carrie Fisher legacy with a Princess Leia costume, complete with the iconic white robe, cinnamon bun hairstyle, and blaster"
+                            },
+    
+                            {
+                            "name": "Swashbuckling Pirate - Johnny Depp",
+                            "prompt": "Transform into Captain Jack Sparrow with layered pirate attire, dreadlocks, bandana, beaded accessories, and a hint of eccentricity"
+                            },
+    
+                            {
+                            "name": "Action Hero - Bruce Willis",
+                            "prompt": "Embody Bruce Willis John McClane from Die Hard with a gritty NYPD tank top, jeans, holster, and a determined expression"
+                            },
+    
+                            {
+                            "name": "Quirky Inventor - Doc Brown",
+                            "prompt": "Create the look of Doc Brown from Back to the Future with a lab coat, wild white hair, safety goggles, and a futuristic gadget"
+                            },
+    
+                            {
+                            "name": "Wizarding Magic - Daniel Radcliffe",
+                            "prompt": "Transform into Harry Potter with round glasses, Hogwarts robes, a wand, and a lightning bolt scar on your forehead"
+                            }
+                    ]
+                },
+                {
+                    "name": "Marvel",
+                    "styles": [
+                        {
+                            "name": "Friendly Neighborhood Spider-Man",
+                            "prompt": "Transform into Spider-Man with the classic red and blue suit, web shooters, and the distinctive spider emblem on the chest"
+                            },
+    
+                            {
+                            "name": "Invincible Iron Man",
+                            "prompt": "Emulate Iron Man with the sleek red and gold armor, arc reactor chest piece, and repulsor gauntlets"
+                            },
+    
+                            {
+                            "name": "Mighty Thor",
+                            "prompt": "Channel Thor power with the Asgardian armor, enchanted Mjolnir, and a red cape flowing in the wind"
+                            },
+    
+                            {
+                            "name": "Star-Spangled Avenger",
+                            "prompt": "Become Captain America with the star-spangled shield, blue uniform, red boots, and the iconic A on the helmet"
+                            },
+    
+                            {
+                            "name": "Fierce Black Widow",
+                            "prompt": "Embody Black Widow with the tactical black suit, wrist gauntlets, and a belt of spy gadgets"
+                            },
+    
+                            {
+                            "name": "Gamma-Powered Hulk",
+                            "prompt": "Transform into Hulk with shredded purple pants, green body paint, and an intimidating, muscle-bound physique"
+                            },
+    
+                            {
+                            "name": "Merc with a Mouth - Deadpool",
+                            "prompt": "Capture Deadpool irreverent style with a red and black suit, mask, katana, and humorous accessories"
+                            },
+    
+                            {
+                            "name": "Wakandan Warrior - Black Panther",
+                            "prompt": "Emulate Black Panther regal costume with a vibranium suit, clawed gloves, and a necklace with a panther pendant"
+                            },
+    
+                            {
+                            "name": "Scarlet Witch Magic",
+                            "prompt": "Channel Scarlet Witch with her red and black outfit, red cloak, and mystical energy effects"
+                            },
+    
+                            {
+                            "name": "Guardian of the Galaxy - Star-Lord",
+                            "prompt": "Transform into Star-Lord with his red leather jacket, Walkman, blasters, and a cassette tape accessory"
+                            }
+                    ]
+                },
+                {
+                    "name": "Disney",
+                    "styles": [
+                        {
+                        "name": "Enchanted Beauty - Belle",
+                        "prompt": "Transform into Belle with her golden ballgown, blue ribbon, and a single rose accessory"
+                        },
+    
+                        {
+                        "name": "Under-the-Sea Mermaid - Ariel",
+                        "prompt": "Emulate Ariel mermaid form with a flowing red wig, purple seashell bikini top, and a shimmering tail"
+                        },
+    
+                        {
+                        "name": "Glass Slipper Princess - Cinderella",
+                        "prompt": "Channel Cinderella with her blue ballgown, glass slipper, and a sparkling tiara"
+                        },
+    
+                        {
+                        "name": "Fierce Warrior - Mulan",
+                        "prompt": "Become Mulan with her armor from the Matchmaker scene, along with a sword and her father helmet"
+                        },
+    
+                        {
+                        "name": "A Whole New World - Jasmine",
+                        "prompt": "Embody Jasmine with her turquoise harem pants, crop top, and a magical lamp accessory"
+                        },
+    
+                        {
+                        "name": "Forest Royalty - Pocahontas",
+                        "prompt": "Capture Pocahontas spirit with her tan outfit, turquoise necklace, and wind-blown hair"
+                        },
+    
+                        {
+                        "name": "Scottish Adventurer - Merida",
+                        "prompt": "Transform into Merida with her fiery red hair, green dress, and a bow and arrow"
+                        },
+    
+                        {
+                        "name": "Rapunzel Tower - Rapunzel",
+                        "prompt": "Emulate Rapunzel with her long blonde wig, purple dress, and a frying pan prop"
+                        },
+    
+                        {
+                        "name": "Winter Enchantment - Elsa",
+                        "prompt": "Channel Elsa magic with her ice-blue gown, snowflake accessories, and a dramatic cape"
+                        },
+    
+                        {
+                        "name": "Frog Princess - Tiana",
+                        "prompt": "Become Tiana with her signature lily pad green gown, tiara, and a frog companion"
+                        }
+                    ]
+                },
+                {
+                    "name": "Real World",
+                    "styles": [
+                        {
+                            "name": "Roaring Twenties Flapper",
+                            "prompt": "Embrace the glamour of the 1920s with a fringed dress, feathered headband, long pearl necklace, and a cigarette holder"
+                            },
+    
+                            {
+                            "name": "Swinging Sixties Mod",
+                            "prompt": "Channel the 1960s mod style with a bold mini dress, knee-high boots, statement jewelry, and a sleek bob hairstyle"
+                            },
+    
+                            {
+                            "name": "Victorian Steampunk Explorer",
+                            "prompt": "Emulate a Victorian-inspired steampunk explorer with a corseted top, high-waisted skirt, utility belt, and mechanical accessories"
+                            },
+    
+                            {
+                            "name": "Bohemian Flower Child",
+                            "prompt": "Capture the free-spirited 1970s vibe with a flowy maxi dress, flower crown, round sunglasses, and layered jewelry"
+                            },
+    
+                            {
+                            "name": "Renaissance Noble",
+                            "prompt": "Transform into a Renaissance noble with a richly embroidered gown, ruffled collar, velvet cloak, and elaborate headpiece"
+                            },
+    
+                            {
+                            "name": "Bollywood Glamour",
+                            "prompt": "Embrace the opulence of Bollywood with a vibrant sari, intricate jewelry, henna tattoos, and a bindi"
+                            },
+    
+                            {
+                            "name": "Japanese Street Fashionista",
+                            "prompt": "Channel Japanese street fashion with a mix of styles like Lolita, Harajuku, or Gyaru, combining layers, accessories, and unique prints"
+                            },
+    
+                            {
+                            "name": "Regency Dandy",
+                            "prompt": "Emulate a Regency-era dandy with tailored trousers, waistcoat, cravat, and a top hat"
+                            },
+    
+                            {
+                            "name": "Nomadic Nomad",
+                            "prompt": "Transform into a nomadic wanderer with layered earth-toned clothing, woven fabrics, and an assortment of rustic accessories"
+                            },
+    
+                            {
+                            "name": "Modern Business Mogul",
+                            "prompt": "Capture the essence of a modern business mogul with a sharp tailored suit, power tie, designer accessories, and a confident demeanor"
+                            }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Hair Styler",
+            "categories": [
+                {
+                    "name": "Classic",
+                    "styles": [
+                        {
+                            "name": "Elegant Chignon",
+                            "prompt": "Generate an image of a person with an elegant chignon hairstyle, featuring a low bun with face-framing tendrils, perfect for a formal occasion"
+                        },
+                        
+                        {
+                            "name": "Slicked Back Perfection",
+                            "prompt": "Create an image of a person showcasing a sleek, slicked back hairstyle with a glossy finish, exuding confidence and sophistication"
+                        },
+                        
+                        {
+                            "name": "Timeless Curls",
+                            "prompt": "Produce an image of a person with classic, shoulder-length curls in a natural brunette shade, capturing a timeless and graceful look"
+                        },
+                        
+                        {
+                            "name": "Polished Pompadour",
+                            "prompt": "Generate an image of a person sporting a polished pompadour with tapered sides, showcasing a modern twist on a classic style"
+                        },
+                        
+                        {
+                            "name": "Graceful Updo",
+                            "prompt": "Create an image of a person with a graceful updo featuring twisted sections and delicate floral accents, radiating a soft and romantic aura"
+                        },
+                        
+                        {
+                            "name": "Glamorous Vintage Waves",
+                            "prompt": "Create an image of a person with glamorous, Old Hollywood-inspired waves, cascading down in a rich, deep brown hue, invoking a sense of timeless elegance"
+                        },
+                        
+                        {
+                            "name": "Regal French Twist",
+                            "prompt": "Generate an image of a person with a regal French twist hairstyle, featuring a neatly rolled updo with a decorative comb, perfect for formal occasions"
+                        },
+                        
+                        {
+                            "name": "Sleek Side Part",
+                            "prompt": "Produce an image of a person with a sleek side-parted hairstyle, accentuating the shine of jet black hair and exuding a polished and confident aura"
+                        }
+                    ]
+                },
+                {
+                    "name": "Trendy",
+                    "styles": [
+                        {
+                            "name": "Colorful Balayage",
+                            "prompt": "Produce an image of a person with a colorful balayage hairstyle, blending shades of lavender, mint, and peach for a unique and edgy look"
+                        },
+                        
+                        {
+                            "name": "Braided Crown",
+                            "prompt": "Generate an image of a person with a braided crown hairstyle adorned with small jewels, creating a bohemian-inspired and regal appearance"
+                        },
+                        
+                        {
+                            "name": "Messy Bun Chic",
+                            "prompt": "Create an image of a person rocking a messy bun with face-framing tendrils and a few loose strands, epitomizing casual yet stylish elegance"
+                        },
+                        
+                        {
+                            "name": "Futuristic Metallic",
+                            "prompt": "Produce an image of a person featuring a futuristic hairstyle with metallic silver tones and geometric patterns, embracing a bold and avant-garde vibe"
+                        },
+                        
+                        {
+                            "name": "Neon Underlights",
+                            "prompt": "Generate an image of a person with neon underlights peeking out from dark hair, adding a pop of electric color to a trendy and dark base"
+                        },
+                        
+                        {
+                            "name": "Futuristic Geometric Bob",
+                            "prompt": "Create an image of a person with a geometric bob hairstyle featuring sharp angles and metallic accents, capturing a futuristic and edgy vibe"
+                        },
+                        
+                        {
+                            "name": "Rainbow Roots",
+                            "prompt": "Generate an image of a person with vibrant rainbow-colored roots that gradually blend into a natural hair color, achieving a playful and bold statement"
+                        },
+                        
+                        {
+                            "name": "Mismatched Elegance",
+                            "prompt": "Produce an image of a person with a hairstyle that combines elegant curls on one side and a shaved, artistic design on the other, showcasing an unconventional yet sophisticated look"
+                        }
+                    ]
+                },
+                {
+                    "name": "Natural",
+                    "styles": [
+                        {
+                            "name": "Sunlit Highlights",
+                            "prompt": "Create an image of a person with sunlit highlights that mimic the effects of the sun on soft brown hair, achieving a naturally radiant appearance"
+                        },
+                        
+                        {
+                            "name": "Effortless Waves",
+                            "prompt": "Produce an image of a person wearing effortlessly tousled waves in a warm honey blonde shade, embodying a laid-back and beachy feel"
+                        },
+                        
+                        {
+                            "name": "Au Naturel Curls",
+                            "prompt": "Generate an image of a person embracing their natural curls in a rich chestnut hue, celebrating the beauty of natural texture and volume"
+                        },
+                        
+                        {
+                            "name": "Simple Ponytail Grace",
+                            "prompt": "Create an image of a person with a simple ponytail secured at the nape of the neck, capturing an understated yet graceful style"
+                        },
+                        
+                        {
+                            "name": "Earthy Tones",
+                            "prompt": "Produce an image of a person with earthy-toned hair, incorporating shades of cinnamon, terracotta, and copper for a warm and organic look"
+                        },
+                        
+                        {
+                            "name": "Effortless Boho Braid",
+                            "prompt": "Create an image of a person with a loose, boho-inspired braid adorned with small flowers, embodying a carefree and nature-loving spirit"
+                        },
+                        
+                        {
+                            "name": "Sun-Kissed Balayage",
+                            "prompt": "Generate an image of a person with sun-kissed balayage hair, featuring warm highlights that mimic the natural effect of the sun, evoking a sunlit summer day"
+                        },
+                        
+                        {
+                            "name": "Wind-Blown Texture",
+                            "prompt": "Produce an image of a person with wind-blown, textured hair in sandy blonde tones, capturing the essence of a breezy day by the ocean"
+                        }
+                    ]
+                },
+                {
+                    "name": "Fantasy",
+                    "styles": [
+                        {
+                            "name": "Mystic Galaxy Hair",
+                            "prompt": "Generate an image of a person with hair resembling the colors and patterns of a swirling galaxy, incorporating deep purples, blues, and shimmering stars"
+                        },
+                        
+                        {
+                            "name": "Crystal Gemstone Locks",
+                            "prompt": "Create an image of a person with hair designed to look like vibrant crystal gemstones, featuring facets and reflections that catch the light"
+                        },
+                        
+                        {
+                            "name": "Fire and Ice Fusion",
+                            "prompt": "Produce an image of a person with a hairstyle that seamlessly blends fiery reds and cool blues, evoking the dynamic contrast of fire and ice"
+                        },
+                        
+                        {
+                            "name": "Enchanted Forest Braids",
+                            "prompt": "Generate an image of a person with intricate braids adorned with tiny flowers and leaves, resembling a magical and enchanting forest scene"
+                        },
+                        
+                        {
+                            "name": "Mermaid Elegance",
+                            "prompt": "Create an image of a person with flowing, iridescent hair that transitions from deep ocean blues to shimmering turquoise, capturing the allure of a mermaid"
+                        },
+                        
+                        {
+                            "name": "Elven Crown Braid",
+                            "prompt": "Create an image of a person with an ethereal elven crown braid that weaves through delicate vines and leaves, conjuring an otherworldly and magical aura"
+                        },
+                        
+                        {
+                            "name": "Dragonfire Ombre",
+                            "prompt": "Generate an image of a person with hair that transitions from deep red to fiery orange and gold, evoking the colors of dragonfire, bringing a mythical touch to reality"
+                        },
+                        
+                        {
+                            "name": "Celestial Halo Hair",
+                            "prompt": "Produce an image of a person with hair designed to resemble a halo of celestial bodies, including stars, moons, and planets, infusing a sense of cosmic wonder"
+                        }
+                    ]
+                },
+                {
+                    "name": "Futuristic",
+                    "styles": [
+                        {
+                            "name": "Cyberpunk Neon",
+                            "prompt": "Produce an image of a person with a cyberpunk-inspired hairstyle featuring bold neon streaks and sharp, angular cuts, embodying a futuristic urban aesthetic"
+                        },
+                        
+                        {
+                            "name": "Biomechanical Fusion",
+                            "prompt": "Generate an image of a person with hair that seamlessly integrates mechanical elements and organic textures, blurring the line between human and machine"
+                        },
+                        
+                        {
+                            "name": "Holographic Mirage",
+                            "prompt": "Create an image of a person with hair that appears to shift and change like a hologram, reflecting an array of vibrant colors and patterns"
+                        },
+                        
+                        {
+                            "name": "Virtual Reality Vortex",
+                            "prompt": "Produce an image of a person with a hairstyle that simulates a swirling vortex of virtual reality, incorporating pixelated patterns and digital effects"
+                        },
+                        
+                        {
+                            "name": "Astronaut Chic",
+                            "prompt": "Generate an image of a person with a space-inspired hairstyle featuring metallic silver tones and cosmic accents, capturing the essence of futuristic exploration"
+                        },
+                        
+                        {
+                            "name": "Pixelated Pixie Cut",
+                            "prompt": "Create an image of a person with a pixelated pixie cut featuring sharp edges and pixel-like texture, embodying a futuristic and digital aesthetic"
+                        },
+                        
+                        {
+                            "name": "Cybernetic Extensions",
+                            "prompt": "Generate an image of a person with hair adorned with intricate cybernetic extensions that merge seamlessly with natural hair, blurring the boundary between human and machine"
+                        },
+                        
+                        {
+                            "name": "Neon Circuitry",
+                            "prompt": "Produce an image of a person with hair styled to resemble neon circuitry patterns, with bright lines of light tracing across the scalp, offering a glimpse into a technological future"
+                        }
+                    ]
+                },
+                {
+                    "name": "Vibrant",
+                    "styles": [
+                        {
+                            "name": "Painted Canvas Hair",
+                            "prompt": "Create an image of a person with hair that mimics the brushstrokes of a vibrant painting, incorporating bold splashes of color and abstract designs"
+                        },
+                        
+                        {
+                            "name": "Graffiti Punk Streaks",
+                            "prompt": "Produce an image of a person with hair adorned with streaks of graffiti-like designs in vivid hues, channeling the rebellious spirit of punk culture"
+                        },
+                        
+                        {
+                            "name": "Abstract Color Burst",
+                            "prompt": "Generate an image of a person with hair showcasing a burst of abstract colors, resembling a kaleidoscope of bright and unconventional shades"
+                        },
+                        
+                        {
+                            "name": "Pop Art Popularity",
+                            "prompt": "Create an image of a person with hair styled in a way that pays homage to pop art, featuring bold patterns, comic book elements, and primary colors"
+                        },
+                        
+                        {
+                            "name": "Expressionist Rainbow",
+                            "prompt": "Produce an image of a person with hair featuring a spectrum of expressive colors arranged in a harmonious gradient, celebrating the power of self-expression"
+                        },
+                        
+                        {
+                            "name": "Pop Surrealism Hair",
+                            "prompt": "Create an image of a person with hair painted in pop surrealism style, combining surreal imagery, bold colors, and dreamlike elements for an eye-catching effect"
+                        },
+                        
+                        {
+                            "name": "Abstract Watercolor Waves",
+                            "prompt": "Generate an image of a person with hair that replicates the fluid, delicate strokes of watercolor paint, showcasing a blend of pastel hues and artistic freedom"
+                        },
+                        
+                        {
+                            "name": "Graffiti Chic Pixie",
+                            "prompt": "Produce an image of a person with a graffiti-inspired pixie cut, featuring vibrant splashes of color and graffiti lettering, capturing the essence of urban street art"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ChangeBack",
+            "categories": [
+                {
+                    "name": "Natural",
+                    "styles": [
+                        {
+                            "name": "Sunset by the Ocean",
+                            "prompt": "Generate an image featuring a sandy beach with waves gently rolling in during a vibrant sunset"
+                            },
+                                
+                            {
+                            "name": "Majestic Mountains",
+                            "prompt": "Transform the scene to showcase a towering range of snow-capped mountains in all their grandeur"
+                            },
+                                
+                            {
+                            "name": "Enchanted Forest",
+                            "prompt": "Create an image that captures the mystical atmosphere of an ancient forest, with towering trees and dappled sunlight"
+                            },
+                                
+                            {
+                            "name": "Rolling Hills",
+                            "prompt": "Depict a serene landscape with gentle, rolling hills and fields of wildflowers extending into the distance"
+                            },
+                                
+                            {
+                            "name": "Starry Night",
+                            "prompt": "Generate an image of a clear night sky adorned with the Milky Way galaxy and sparkling stars"
+                            },
+                                
+                            {
+                            "name": "Tropical Paradise",
+                            "prompt": "Transform the background into a tropical paradise featuring palm trees, a crystal-clear lagoon, and white sandy beaches"
+                            },
+                                
+                            {
+                            "name": "Countryside Cottage",
+                            "prompt": "Create an image of a charming countryside cottage surrounded by peaceful fields and nature"
+                            },
+                                
+                            {
+                            "name": "Lush Waterfall",
+                            "prompt": "Depict a stunning waterfall cascading down rocks amidst lush vegetation"
+                            },
+                                
+                            {
+                            "name": "Desert Oasis",
+                            "prompt": "Generate an image of a desert oasis with date palms, clear skies, and a refreshing waterhole"
+                            },
+                                
+                            {
+                            "name": "Misty Morning Lake",
+                            "prompt": "Transform the scene into a misty lake during early morning, with the water reflecting the serene atmosphere"
+                            }
+                    ]
+                },
+                {
+                    "name": "Urban",
+                    "styles": [
+                        {
+                            "name": "City Skyline",
+                            "prompt": "Create an image capturing a bustling city skyline with illuminated skyscrapers and city lights"
+                            },
+                                
+                            {
+                            "name": "Graffiti Alley",
+                            "prompt": "Generate an image of a vibrant graffiti-covered alley, showcasing urban art"
+                            },
+                                
+                            {
+                            "name": "Futuristic Metropolis",
+                            "prompt": "Transform the setting into a technologically advanced city of the future with holographic advertisements and sleek architecture"
+                            },
+                                
+                            {
+                            "name": "Historic European Street",
+                            "prompt": "Depict a charming, cobblestone street in an old European town with quaint buildings and historic charm"
+                            },
+                                
+                            {
+                            "name": "Neon Nightlife",
+                            "prompt": "Create an image that conveys the lively neon-lit nightlife of an urban district with bustling crowds and vibrant lights"
+                            },
+                                
+                            {
+                            "name": "Subway Station",
+                            "prompt": "Generate an image of a subway station, capturing the gritty urban atmosphere"
+                            },
+                                
+                            {
+                            "name": "Rooftop Garden",
+                            "prompt": "Transform the background into a lush rooftop garden in the heart of the city, featuring greenery and relaxation"
+                            },
+                                
+                            {
+                            "name": "Skyscraper Canyon",
+                            "prompt": "Depict towering skyscrapers forming a concrete canyon in a modern metropolis"
+                            },
+                                
+                            {
+                            "name": "Open-Air Market",
+                            "prompt": "Create an image of a bustling open-air market with colorful stalls and diverse goods"
+                            },
+                                
+                            {
+                            "name": "Industrial District",
+                            "prompt": "Generate an image of an industrial area with factories, warehouses, and gritty urban infrastructure"
+                            }
+                    ]
+                },
+                {
+                    "name": "Fantasy",
+                    "styles": [
+                        {
+                            "name": "Floating Isles",
+                            "prompt": "Create an image where landmasses float in the sky amidst clouds, forming a fantastical world"
+                            },
+                                
+                            {
+                            "name": "Underwater Kingdom",
+                            "prompt": "Generate an image of an underwater realm with coral reefs, vibrant marine life, and an ethereal glow"
+                            },
+                                
+                            {
+                            "name": "Mystical Library",
+                            "prompt": "Transform the background into a grand library filled with ancient books, magical artifacts, and hidden knowledge"
+                            },
+                                
+                            {
+                            "name": "Celestial Observatory",
+                            "prompt": "Depict an observatory atop a mountain, gazing at a star-studded sky and otherworldly phenomena"
+                            },
+                                
+                            {
+                            "name": "Enchanted Castle",
+                            "prompt": "Create an image of a majestic castle nestled within an enchanted forest, emanating an aura of magic"
+                            },
+                                
+                            {
+                            "name": "Steampunk Cityscape",
+                            "prompt": "Generate a cityscape with a steampunk aesthetic, featuring gears, steam-powered machinery, and ornate architecture"
+                            },
+                                
+                            {
+                            "name": "Floating City",
+                            "prompt": "Transform the scene into a city floating high above the clouds, connected by bridges and airships"
+                            },
+                                
+                            {
+                            "name": "Ancient Ruins",
+                            "prompt": "Depict overgrown ancient ruins, shrouded in mystery and surrounded by lush vegetation"
+                            },
+                                
+                            {
+                            "name": "Dreamy Cloudscape",
+                            "prompt": "Create an image of a dreamy cloudscape where the person stands on soft, fluffy clouds with pastel hues"
+                            },
+                                
+                            {
+                            "name": "Portal Nexus",
+                            "prompt": "Generate an image featuring a nexus of portals, each leading to different fantastical realms"
+                            }
+                    ]
+                },
+                {
+                    "name": "Time Periods",
+                    "styles": [
+                        {
+                            "name": "Medieval Village",
+                            "prompt": "Transform the setting into a medieval village with thatched-roof cottages, a bustling market, and a castle in the distance"
+                            },
+                                
+                            {
+                            "name": "Wild West Town",
+                            "prompt": "Create an image of a dusty wild west town with saloons, wooden storefronts, and rugged landscapes"
+                            },
+                                
+                            {
+                            "name": "Ancient Egyptian Temple",
+                            "prompt": "Depict an ancient Egyptian temple with intricate hieroglyphs, statues, and a glimpse of the Nile River"
+                            },
+                                
+                            {
+                            "name": "1920s Jazz Club",
+                            "prompt": "Generate an image of a lively 1920s jazz club with a band playing, flapper dresses, and Art Deco décor"
+                            },
+                                
+                            {
+                            "name": "Prehistoric Landscape",
+                            "prompt": "Transform the background to a prehistoric era with towering dinosaurs, lush vegetation, and a primordial atmosphere"
+                            },
+                                
+                            {
+                            "name": "Victorian London",
+                            "prompt": "Create an image of Victorian London with cobblestone streets, gas lamps, and elegant architecture"
+                            },
+                                
+                            {
+                            "name": "Cyberpunk Alley",
+                            "prompt": "Depict a gritty cyberpunk alley with neon signs, holograms, and a futuristic, dystopian vibe"
+                            },
+                                
+                            {
+                            "name": "Renaissance Court",
+                            "prompt": "Generate an image of a grand Renaissance court with opulent attire, elegant architecture, and artists at work"
+                            },
+                                
+                            {
+                            "name": "Ancient Japanese Garden",
+                            "prompt": "Transform the scene into an ancient Japanese garden with bonsai trees, stone lanterns, and koi ponds"
+                            },
+                                
+                            {
+                            "name": "Space Colony",
+                            "prompt": "Create an image of a futuristic space colony on another planet, showcasing advanced technology and cosmic landscapes"
+                            }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cartoon",
+            "categories": [
+                {
+                    "name": "2D",
+                    "styles": [
+                        {
+                            "name": "anime",
+                            "prompt": "AAM.safetensors"
+                        },
+                        {
+                            "name": "Comic",
+                            "prompt": "Western.safetensors"
+                        }
+                    ]
+                },
+                {
+                    "name": "3D",
+                    "styles": [
+                        {
+                            "name": "Animation",
+                            "prompt": "3d.safetensors"
+                        },
+                        {
+                            "name": "Art",
+                            "prompt": "dreamshaper_8.safetensors"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

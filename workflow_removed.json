@@ -1,0 +1,14 @@
+{
+    "name": "NSFW",
+    "categories": [
+        {
+            "name": "Sure?",
+            "styles": [
+                {
+                    "name": "Absolutely?",
+                    "prompt": "what a fucking scandal"
+                }
+            ]
+        }
+    ]
+}

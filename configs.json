@@ -1,0 +1,51 @@
+{
+    "1": {
+        "file_path": "workflows/CosplayOLD.json",
+        "ksampler": "949",
+        "promptnode": "999",
+        "imagenode": "133"
+    },
+    "NSFW": {
+        "file_path": "workflows/adult.json",
+        "ksampler": "64",
+        "promptnode": "9999",
+        "imagenode": "133"
+    },
+    "3": {
+        "file_path": "workflows/creative.json",
+        "ksampler": "878",
+        "promptnode": "999",
+        "imagenode": "133"
+    },
+    "Cosplay - Outfit": {
+        "file_path": "workflows/CosplayCloth.json",
+        "ksampler": "1031",
+        "promptnode": "1058",
+        "imagenode": "133"
+    },
+    "Cosplay - Full body": {
+        "file_path": "workflows/CosplayWhole.json",
+        "ksampler": "1031",
+        "promptnode": "1058",
+        "imagenode": "133"
+    },
+    "Hair Styler": {
+        "file_path": "workflows/HairStyle.json",
+        "ksampler": "24",
+        "promptnode": "76",
+        "imagenode": "1"
+    },
+    "ChangeBack": {
+        "file_path": "workflows/changeback.json",
+        "ksampler": "10",
+        "promptnode": "39",
+        "imagenode": "12"
+    },
+    "Cartoon": {
+        "file_path": "workflows/anime.json",
+        "ksampler": "1",
+        "promptnode": "9999",
+        "imagenode": "3",
+        "loader": "2"
+    }
+}

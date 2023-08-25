@@ -1,0 +1,355 @@
+{
+  "1": {
+    "inputs": {
+      "sampler_state": "Sample",
+      "seed": 1098911286887166,
+      "steps": 20,
+      "cfg": 8,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "denoise": 1,
+      "preview_method": "auto",
+      "vae_decode": "true",
+      "model": [
+        "2",
+        0
+      ],
+      "positive": [
+        "58",
+        0
+      ],
+      "negative": [
+        "2",
+        2
+      ],
+      "latent_image": [
+        "4",
+        0
+      ],
+      "optional_vae": [
+        "2",
+        4
+      ]
+    },
+    "class_type": "KSampler (Efficient)"
+  },
+  "2": {
+    "inputs": {
+      "ckpt_name": "AAM.safetensors",
+      "vae_name": "Baked VAE",
+      "clip_skip": -2,
+      "lora_name": "None",
+      "lora_model_strength": 1,
+      "lora_clip_strength": 1,
+      "positive": "",
+      "negative": "",
+      "empty_latent_width": 512,
+      "empty_latent_height": 512,
+      "batch_size": 1
+    },
+    "class_type": "Efficient Loader"
+  },
+  "3": {
+    "inputs": {
+      "image": "photo_2023-08-25_17-21-45.jpg",
+      "choose file to upload": "image"
+    },
+    "class_type": "LoadImage"
+  },
+  "4": {
+    "inputs": {
+      "pixels": [
+        "12",
+        0
+      ],
+      "vae": [
+        "2",
+        4
+      ]
+    },
+    "class_type": "VAEEncode"
+  },
+  "5": {
+    "inputs": {
+      "text": "anime, 2d, anime+++",
+      "clip": [
+        "2",
+        5
+      ]
+    },
+    "class_type": "CLIPTextEncode"
+  },
+  "12": {
+    "inputs": {
+      "upscale_method": "nearest-exact",
+      "width": 512,
+      "height": 512,
+      "crop": "center",
+      "image": [
+        "3",
+        0
+      ]
+    },
+    "class_type": "ImageScale"
+  },
+  "13": {
+    "inputs": {
+      "images": [
+        "12",
+        0
+      ]
+    },
+    "class_type": "PreviewImage"
+  },
+  "20": {
+    "inputs": {
+      "images": [
+        "1",
+        5
+      ]
+    },
+    "class_type": "PreviewImage"
+  },
+  "33": {
+    "inputs": {
+      "control_net_name": "openpose.safetensors"
+    },
+    "class_type": "ControlNetLoader"
+  },
+  "58": {
+    "inputs": {
+      "strength": 0.5,
+      "conditioning": [
+        "67",
+        0
+      ],
+      "control_net": [
+        "59",
+        0
+      ],
+      "image": [
+        "76",
+        0
+      ]
+    },
+    "class_type": "ControlNetApply"
+  },
+  "59": {
+    "inputs": {
+      "control_net_name": "softedge.safetensors"
+    },
+    "class_type": "ControlNetLoader"
+  },
+  "63": {
+    "inputs": {
+      "model": "wd-v1-4-moat-tagger-v2",
+      "threshold": 0.9,
+      "character_threshold": 0.9,
+      "exclude_tags": "realistic, real, photorealistic",
+      "image": [
+        "12",
+        0
+      ]
+    },
+    "class_type": "WD14Tagger|pysssss"
+  },
+  "64": {
+    "inputs": {
+      "text": [
+        "63",
+        0
+      ],
+      "clip": [
+        "2",
+        5
+      ]
+    },
+    "class_type": "CLIPTextEncode"
+  },
+  "65": {
+    "inputs": {
+      "conditioning_1": [
+        "5",
+        0
+      ],
+      "conditioning_2": [
+        "64",
+        0
+      ]
+    },
+    "class_type": "ConditioningCombine"
+  },
+  "66": {
+    "inputs": {},
+    "class_type": "AnimeLineArtPreprocessor"
+  },
+  "67": {
+    "inputs": {
+      "strength": 0.8,
+      "conditioning": [
+        "65",
+        0
+      ],
+      "control_net": [
+        "68",
+        0
+      ],
+      "image": [
+        "69",
+        0
+      ]
+    },
+    "class_type": "ControlNetApply"
+  },
+  "68": {
+    "inputs": {
+      "control_net_name": "color.pth"
+    },
+    "class_type": "ControlNetLoader"
+  },
+  "69": {
+    "inputs": {
+      "image": [
+        "12",
+        0
+      ]
+    },
+    "class_type": "ColorPreprocessor"
+  },
+  "70": {
+    "inputs": {
+      "images": [
+        "76",
+        0
+      ]
+    },
+    "class_type": "PreviewImage"
+  },
+  "71": {
+    "inputs": {
+      "sampler_state": "Sample",
+      "seed": 599749728403559,
+      "steps": 20,
+      "cfg": 9,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "denoise": 0.57,
+      "preview_method": "auto",
+      "vae_decode": "true",
+      "model": [
+        "2",
+        0
+      ],
+      "positive": [
+        "77",
+        0
+      ],
+      "negative": [
+        "2",
+        2
+      ],
+      "latent_image": [
+        "73",
+        0
+      ],
+      "optional_vae": [
+        "2",
+        4
+      ]
+    },
+    "class_type": "KSampler (Efficient)"
+  },
+  "73": {
+    "inputs": {
+      "pixels": [
+        "1",
+        5
+      ],
+      "vae": [
+        "2",
+        4
+      ]
+    },
+    "class_type": "VAEEncode"
+  },
+  "74": {
+    "inputs": {
+      "images": [
+        "71",
+        5
+      ]
+    },
+    "class_type": "PreviewImage"
+  },
+  "75": {
+    "inputs": {
+      "text": [
+        "63",
+        0
+      ],
+      "clip": [
+        "2",
+        5
+      ]
+    },
+    "class_type": "CLIPTextEncode"
+  },
+  "76": {
+    "inputs": {
+      "version": "v1.1",
+      "safe": "enable",
+      "image": [
+        "12",
+        0
+      ]
+    },
+    "class_type": "HEDPreprocessor"
+  },
+  "77": {
+    "inputs": {
+      "strength": 1,
+      "conditioning": [
+        "75",
+        0
+      ],
+      "control_net": [
+        "33",
+        0
+      ],
+      "image": [
+        "78",
+        0
+      ]
+    },
+    "class_type": "ControlNetApply"
+  },
+  "78": {
+    "inputs": {
+      "detect_hand": "enable",
+      "detect_body": "enable",
+      "detect_face": "enable",
+      "version": "v1.1",
+      "image": [
+        "12",
+        0
+      ]
+    },
+    "class_type": "OpenposePreprocessor"
+  },
+  "82": {
+    "inputs": {
+      "filename_prefix": "anime",
+      "images": [
+        "71",
+        5
+      ]
+    },
+    "class_type": "SaveImage"
+  },
+  "9999": {
+    "inputs": {
+      "text": "batman, fictional character"
+    },
+    "class_type": "Text"
+  }
+}
