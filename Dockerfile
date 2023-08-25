@@ -11,8 +11,11 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy only the necessary source files
 COPY . .
 
+# Make a directory for uploaded images 
+RUN mkdir uploads
+
 # Expose the desired port
 EXPOSE 80
 
 # Set the command to run your application
-CMD ["python", "main.py"]
+CMD ["python", "bot.py"]
