@@ -1,11 +1,10 @@
 import telebot
 import requests
 from telebot import types # import types for inline buttons
-from config import TELEGRAM_BOT_TOKEN, workflows  
+from config import TELEGRAM_BOT_TOKEN, workflows
 from image_processor import get_prompt, save_image
-from engine import engine
-import config 
-from config import srvadd 
+
+
 import time
 import json
 
@@ -24,6 +23,41 @@ m_help = str(messages['help'])
 m_about = str(messages['about'])
 m_community = str(messages['community'])
 m_channel = str(messages['channel'])
+
+def check_server():
+  try:
+    from config import srvadd
+    response = requests.get("http://" + srvadd)
+    if response.status_code == 200:
+      return "Server is up!"
+    else:
+      return "Server returned status code %s" % response.status_code
+  except:
+    return "Server is down!"
+
+def show_server_status(message):
+  status = check_server()
+  bot.send_message(message.chat.id, status)
+
+@bot.message_handler(content_types=['text'])
+def handle_text(message):
+  if message.text == '💻 Server Status':
+    show_server_status(message)
+  elif message.text.startswith('http://') or message.text.startswith('https://'):
+    new_address = message.text
+    new_address = new_address.replace('http://', '')
+    new_address = new_address.replace('https://', '')
+    new_address = new_address.replace('/', '')
+    import config
+    config.modify_server(new_address)
+    bot.send_message(message.chat.id, "Server address updated!")
+  elif message.text == "serverurl":
+    from config import srvadd
+    bot.send_message(message.chat.id, srvadd)
+  else:
+    bot.send_message(message.chat.id, m_lost)
+
+
 
 @bot.message_handler(func=lambda message: message.text == '🆘 Help')
 def handle_button_1(message):
@@ -70,7 +104,6 @@ def handle_photo(message):
         for workflow in workflows['workflows']:
             callback_data = workflow['name'] 
             keyboard.add(types.InlineKeyboardButton(text=workflow['name'], callback_data=callback_data))
-        print(m_workflow)
         bot.send_message(message.chat.id, m_workflow, reply_markup=keyboard)
     except Exception as e:
         print(e)
@@ -108,43 +141,19 @@ def style_chosen(call):
     user_data[call.message.chat.id]['style'] = call.data
     bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text=m_wait)
     userprompt = get_prompt(user_data[call.message.chat.id]['workflow'], user_data[call.message.chat.id]['category'], user_data[call.message.chat.id]['style'])
-    img = engine(
-        user_data[call.message.chat.id]['workflow'],
-        user_data[call.message.chat.id]['img_path'],
-        user_data[call.message.chat.id]['img_name'],
-        userprompt)
-    bot.send_photo(call.message.chat.id, img)
+    try:
+        from engine import engine
+        from config import srvadd
+        img = engine(
+            user_data[call.message.chat.id]['workflow'],
+            user_data[call.message.chat.id]['img_path'],
+            user_data[call.message.chat.id]['img_name'],
+            userprompt,srvadd)
+        bot.send_photo(call.message.chat.id, img)
+    except:
+        bot.send_message(call.message.chat.id, "Looks like the server is down?")
     user_data[call.message.chat.id] = {}
 
-def check_server():
-  try:
-    response = requests.get("http://" + srvadd)
-    if response.status_code == 200:
-      return "Server is up!"
-    else:
-      return "Server returned status code %s" % response.status_code
-  except:
-    return "Server is down!"
 
-def show_server_status(message):
-  status = check_server()
-  bot.send_message(message.chat.id, status)
-
-@bot.message_handler(content_types=['text'])
-def handle_text(message):
-  if message.text == '💻 Server Status':
-    show_server_status(message)
-  elif message.text.startswith('http://') or message.text.startswith('https://'):
-    new_address = message.text
-    new_address = new_address.replace('http://', '')
-    new_address = new_address.replace('https://', '')
-    new_address = new_address.replace('/', '')
-    global srvadd
-    srvadd = new_address
-    bot.send_message(message.chat.id, "Server address updated!")
-  elif message.text == "serverurl":
-    bot.send_message(message.chat.id, srvadd)
-  else:
-    bot.send_message(message.chat.id, m_lost)
 
 bot.polling()

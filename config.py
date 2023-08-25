@@ -8,8 +8,12 @@ import simplejson as json
 with open('workflows.json') as f:
     workflows = json.load(f)
 
-global srvadd
-srvadd = "boundary-simulations-generator-tribune.trycloudflare.com"
+
+srvadd = "enter a valid url"
+
+def modify_server(newaddress):
+    global srvadd
+    srvadd = newaddress
 
 # Telegram Bot Token
 TELEGRAM_BOT_TOKEN = '6175303837:AAGFLDzfd3gxkoxI8ZhD3BMB7G9Rotye9gY'
