@@ -15,7 +15,7 @@ COPY . .
 RUN mkdir uploads
 
 # Expose the desired port
-EXPOSE 80
+EXPOSE 443
 
 # Set the command to run your application
 CMD ["python", "bot.py"]

@@ -4,6 +4,7 @@
     "category": "rare? medium? well done? 🥩",
     "style": "Excelent choice sir!",
     "wait": "💀 hang tight! here it comes... \n (wait ~40s)",
+    "fail": "🚫 Looks like the server is down? 🚫",
     "lost": "Cast /start or toss a photo to your witcher.. yikes.. join in the community tho! 👇",
     "help": "You just send an image here and i'll do the rest! \n \n Other than that, there is nothing to help with really, i process your images in an external server. You can check if the server is down right now by using the Server Status button! \n Since it's still an alpha version, you dont need to pay for generations and your feedback is the most valuable thing to me, so make sure you join in the community! (link in the buttons) \n \n Message if there were an issue @papacharls",
     "about": "Alter Magic is more of an advanced prompt engineering tool based on the Stable Diffusion model. I started this as a hobby project, hope you like it!",

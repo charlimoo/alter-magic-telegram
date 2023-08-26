@@ -18,6 +18,7 @@ m_workflow = str(messages['workflow'])
 m_category = str(messages['category'])
 m_style = str(messages['style'])
 m_wait = str(messages['wait'])
+m_fail = str(messages['fail'])
 m_lost = str(messages['lost'])
 m_help = str(messages['help'])
 m_about = str(messages['about'])
@@ -39,23 +40,7 @@ def show_server_status(message):
   status = check_server()
   bot.send_message(message.chat.id, status)
 
-@bot.message_handler(content_types=['text'])
-def handle_text(message):
-  if message.text == '💻 Server Status':
-    show_server_status(message)
-  elif message.text.startswith('http://') or message.text.startswith('https://'):
-    new_address = message.text
-    new_address = new_address.replace('http://', '')
-    new_address = new_address.replace('https://', '')
-    new_address = new_address.replace('/', '')
-    import config
-    config.modify_server(new_address)
-    bot.send_message(message.chat.id, "Server address updated!")
-  elif message.text == "serverurl":
-    from config import srvadd
-    bot.send_message(message.chat.id, srvadd)
-  else:
-    bot.send_message(message.chat.id, m_lost)
+
 
 
 
@@ -89,6 +74,27 @@ def send_welcome(message):
 
     bot.reply_to(message, m_start, reply_markup=keyboard)
     user_data[message.chat.id] = {}
+
+
+@bot.message_handler(content_types=['text'])
+def handle_text(message):
+  if message.text == '💻 Server Status':
+    show_server_status(message)
+  elif message.text.startswith('http://') or message.text.startswith('https://'):
+    new_address = message.text
+    new_address = new_address.replace('http://', '')
+    new_address = new_address.replace('https://', '')
+    new_address = new_address.replace('/', '')
+    import config
+    config.modify_server(new_address)
+    bot.send_message(message.chat.id, "Server address updated!")
+  elif message.text == "serverurl":
+    from config import srvadd
+    bot.send_message(message.chat.id, srvadd)
+  else:
+    bot.send_message(message.chat.id, m_lost)
+
+
 
 @bot.message_handler(content_types=['photo']) 
 def handle_photo(message):
@@ -144,16 +150,29 @@ def style_chosen(call):
     try:
         from engine import engine
         from config import srvadd
+        global img
         img = engine(
             user_data[call.message.chat.id]['workflow'],
             user_data[call.message.chat.id]['img_path'],
             user_data[call.message.chat.id]['img_name'],
             userprompt,srvadd)
-        bot.send_photo(call.message.chat.id, img)
+        keyboard = types.InlineKeyboardMarkup()
+        callback_data = "Forward it to Community 🚀"
+        keyboard.add(types.InlineKeyboardButton(text="Forward it to Community 🚀", callback_data=callback_data))
+        bot.send_photo(call.message.chat.id, img, reply_markup=keyboard)
+        bot.delete_message(chat_id=call.message.chat.id, message_id=call.message.message_id)
     except:
-        bot.send_message(call.message.chat.id, "Looks like the server is down?")
-    user_data[call.message.chat.id] = {}
+        bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text=m_fail)
 
+@bot.callback_query_handler(func=lambda call: call.data == "Forward it to Community 🚀")
+def forward(call):
+    print("pre-srating")
+    try:
+        chat_id='-1001959907228'
+        bot.send_photo(chat_id=chat_id, photo=img, caption="Lets see some " + user_data[call.message.chat.id]['style'] + "!")
+        bot.send_message(call.message.chat.id, "Your image is now shared with the world! \n you can visit it here: \n https://t.me/altermagic")
+    except:
+        bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text=m_fail)
 
 
 bot.polling()
