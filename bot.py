@@ -174,5 +174,10 @@ def forward(call):
     except:
         bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text=m_fail)
 
+@bot.message_handler(commands=['health'])
+def health(message):
+  bot.reply_to(message, 'OK')
+
+
 
 bot.polling()
