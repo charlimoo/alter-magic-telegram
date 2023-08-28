@@ -11,8 +11,6 @@ def iframe_thread(port):
         if result == 0:
             break
         sock.close()
-    print("\nComfyUI finished loading, trying to launch cloudflared (if it gets stuck here cloudflared is having issues)\n")
-
     p = subprocess.Popen(["cloudflared", "tunnel", "--url", "http://127.0.0.1:{}".format(port)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     for line in p.stderr:
         l = line.decode()
@@ -21,5 +19,3 @@ def iframe_thread(port):
 
 threading.Thread(target=iframe_thread, daemon=True, args=(8188,)).start()
 
-# Run main.py from the 'comfyui' folder
-subprocess.run(["python", "comfyui/main.py"])
