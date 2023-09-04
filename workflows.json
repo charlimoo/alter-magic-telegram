@@ -1500,6 +1500,20 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "cartoon2",
+            "categories": [
+                {
+                    "name": "Sure?",
+                    "styles": [
+                        {
+                            "name": "Absolutely?",
+                            "prompt": "what a fucking scandal"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
